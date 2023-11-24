@@ -41,3 +41,16 @@ class DATA2 {
   }
 }
 */
+/*TASK 5*/
+import 'package:http/http.dart';
+
+class DATA3 {
+  static final String baseUrl4 = "655deebe9f1e1093c59a2f19.mockapi.io";
+  static final String apiSal1h = "/sal1h";
+
+  static Future<String> getData3(String api) async {
+    Uri url = Uri.https(baseUrl4, api);
+    Response response = await get(url);
+    return response.body;
+  }
+}

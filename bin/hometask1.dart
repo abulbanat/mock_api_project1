@@ -27,3 +27,14 @@ void main() async{
   print(respons3);
 
 }*/
+
+/*TASK 5*/
+/*
+import 'services/networking_service.dart';
+
+void main() async{
+  String respons4 = await DATA3.getData3(DATA3.apiSal1h);
+  print(respons4);
+
+}
+*/
