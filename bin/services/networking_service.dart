@@ -1,3 +1,4 @@
+/*TASK 2*/
 /*
 import 'package:http/http.dart';
 
@@ -11,6 +12,8 @@ class DATA{
     return response.body;
   }
 }*/
+/*TASK 3*/
+/*
 import 'package:http/http.dart';
 
 class DATA1 {
@@ -22,4 +25,19 @@ class DATA1 {
     Response response = await get(url);
     return response.body;
   }
+}*/
+/*TASK 4*/
+/*
+import 'package:http/http.dart';
+
+class DATA2 {
+  static final String baseUrl3 = "655deeb89f1e1093c59a2ed1.mockapi.io";
+  static final String apiShopping = "/shopping";
+
+  static Future<String> getData3(String api) async {
+    Uri url = Uri.https(baseUrl3, api);
+    Response response = await get(url);
+    return response.body;
+  }
 }
+*/
